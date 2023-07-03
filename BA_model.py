@@ -80,4 +80,4 @@ def parse_args():
 
 def main():
     args = parse_args()
-    BA_model(args.m0, args.m, args.t, args.path)
+    BA_model(args.m0, args.m, args.t, args.edgelist)
